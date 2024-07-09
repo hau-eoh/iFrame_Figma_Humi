@@ -1,0 +1,20 @@
+:root {
+  --solidneutral-900: rgba(255, 255, 255, 1);
+  --functional-colororange: rgba(255, 106, 0, 1);
+  --eoh-brand-colorsecondary: rgba(240, 130, 41, 1);
+  --gray-gray-1: rgba(255, 255, 255, 1);
+  --daybreak-blue-blue-3: rgba(145, 213, 255, 1);
+  --text-h5-subheading-1-font-family: "Inter", Helvetica;
+  --text-h5-subheading-1-font-weight: 600;
+  --text-h5-subheading-1-font-size: 16px;
+  --text-h5-subheading-1-letter-spacing: -0.08px;
+  --text-h5-subheading-1-line-height: 24px;
+  --text-h5-subheading-1-font-style: normal;
+  --semibold-56px-64px-font-family: "SF Pro Display", Helvetica;
+  --semibold-56px-64px-font-weight: 400;
+  --semibold-56px-64px-font-size: 56px;
+  --semibold-56px-64px-letter-spacing: 0px;
+  --semibold-56px-64px-line-height: 64px;
+  --semibold-56px-64px-font-style: normal;
+  --collection-1-color: rgba(0, 164, 178, 1);
+}

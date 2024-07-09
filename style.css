@@ -1,0 +1,80 @@
+.lable {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 16px 1px;
+  position: relative;
+  background-color: var(--solidneutral-900);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.lable .frame {
+  width: 168px;
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lable .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-h5-subheading-1-font-family);
+  font-weight: var(--text-h5-subheading-1-font-weight);
+  color: var(--functional-colororange);
+  font-size: var(--text-h5-subheading-1-font-size);
+  letter-spacing: var(--text-h5-subheading-1-letter-spacing);
+  line-height: var(--text-h5-subheading-1-line-height);
+  white-space: nowrap;
+  font-style: var(--text-h5-subheading-1-font-style);
+}
+
+.lable .div {
+  justify-content: flex-end;
+  gap: 4px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lable .element-unit {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--semibold-56px-64px-font-family);
+  font-weight: var(--semibold-56px-64px-font-weight);
+  color: var(--functional-colororange);
+  font-size: var(--semibold-56px-64px-font-size);
+  text-align: right;
+  letter-spacing: var(--semibold-56px-64px-letter-spacing);
+  line-height: var(--semibold-56px-64px-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-56px-64px-font-style);
+}
+
+.lable .group-wrapper {
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lable .group {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background-color: var(--eoh-brand-colorsecondary);
+  border-radius: 30px;
+}
